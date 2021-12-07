@@ -277,4 +277,26 @@ footer{
     display: grid;
     grid-template-columns: 1fr 500px 1fr;
 }
+.hero_3_img{
+    grid-row: 1/2;
+    grid-column: 2/5;
+    width: 100%;
+    border: black 1px solid;
+
+}
+.hero_3_title{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #1B9AAA;
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 15px;
+    font-size: 50px;
+    text-align: center;
+    border: black 2px solid;
+}
+.cookie_img{
+    max-width: 60%;
+    margin: 0 20%;
+}
 
